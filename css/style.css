@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main{
+    height: 100vh;
+	width: 100%;
+	background-color:#eef4ed;
+	color:#006992;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    flex-direction: column;
+	font-size:5em;
+}
+
+#fullDate{
+    font-size:4rem;
+    margin-bottom:2rem;
+}
+#clock{
+    font-size:12rem;
+}
+
+#day{
+    margin-top:1.5rem;
+    font-size:2.5rem;
+}
+
+@media(max-width:768px){
+    #fullDate{
+        font-size:2rem;
+    }
+
+    #clock{
+        font-size:5rem;
+    }
+
+    #day{
+        font-size:1.5rem;
+    }
+}
