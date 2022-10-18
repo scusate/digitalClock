@@ -5,7 +5,7 @@ A simple page with digital clock, date and day.
 
 Preview
 
-![Digital Clock Preview 1](/digitalClock1.png)
+![Digital Clock Preview 1](/digitalClock.png)
 
 Mobile View
 
